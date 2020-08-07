@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0
+	border: 0;
 	font-size: 100%;
 	font: inherit;
     vertical-align: baseline;
@@ -223,7 +223,7 @@ p {
     width: 47%;
     padding-bottom: 1.5rem;
     margin-bottom: 1.5rem;
-    border-bottom: 0.1rem dotted gray;    
+    border-bottom: 0.1rem dotted lightgray;    
 }
 
 #main section h2 {
@@ -240,7 +240,15 @@ p {
     border-radius: 0.8rem;
 }
 
+#main section a:hover {
+    background: #262626;
+    color: white;
+}
 
+#final_paragraph {
+    margin: 1rem;
+    margin-bottom: 2.5rem;
+}
 
 /* About Page End */
 
