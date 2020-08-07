@@ -21,7 +21,8 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    text-decoration: none;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -29,10 +30,27 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+a {
+    color: black;
+}
+
+.top_width {
+    display: flex;
+    justify-content: center;
+}
+
 .top {
     display: flex;
     justify-content: center;
-    width: 60%;
+    width: 50%;
+    margin-top: 2rem;
+}
+
+.top nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 68%;
 }
 
 .top_img {
@@ -40,6 +58,10 @@ footer, header, hgroup, menu, nav, section {
     justify-content: center;
     margin: 2rem;
 }
+
+
+
+
 
 
 
