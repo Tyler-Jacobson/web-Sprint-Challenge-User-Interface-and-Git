@@ -205,9 +205,22 @@ p {
 
 /* About Page Start */
 
+#section1 {
+    padding: 1.5rem;
+    padding-top: 0rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 0.1rem dotted gray;
+}
 
+#main {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
 
-
+#main section {
+    width: 50%
+}
 
 
 
