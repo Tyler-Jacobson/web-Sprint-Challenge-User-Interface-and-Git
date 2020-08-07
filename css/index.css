@@ -21,13 +21,49 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    text-decoration: none;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+a {
+    color: black;
+}
+
+.top_width {
+    display: flex;
+    justify-content: center;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-top: 2rem;
+}
+
+.top nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 68%;
+}
+
+.top_img {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+
+
+
+
+
 body {
 	line-height: 1;
 }
@@ -112,6 +148,47 @@ p {
     justify-content: center;
 }
 
+
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +202,55 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* About Page Start */
+
+#section1 {
+    padding: 1.5rem;
+    padding-top: 0rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 0.1rem dotted lightgray;
+}
+
+#main {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+#main section {
+    width: 47%;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 0.1rem dotted lightgray;    
+}
+
+#main section h2 {
+    margin-top: 1rem;
+}
+
+#main section a {
+    display: flex;
+    justify-content: center;
+    border: 0.1rem solid black;
+    width: 35%;
+    margin-top: 1.2rem;
+    padding: 0.8rem;
+    border-radius: 0.8rem;
+}
+
+#main section a:hover {
+    background: #262626;
+    color: white;
+}
+
+#final_paragraph {
+    margin: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+/* About Page End */
 
 footer {
     width: 100%;
@@ -144,3 +270,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
